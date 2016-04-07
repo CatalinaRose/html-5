@@ -1,0 +1,62 @@
+
+body {
+    background-color: #00aff0;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    /*layout*/
+    display: flex;
+    align-items: center;
+    min-height: 100%;
+    margin-top: 10px;
+    justify-content: center;
+    /*font*/
+    font-family: "Courier", sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #d3d3d3;
+}
+
+main, h1 {
+    display: flex;
+    align-items: center;
+    min-height: 10%;
+    margin-top: 10px;
+    background-color: mediumvioletred;
+    padding: 40px;
+}
+
+.navigation ul {
+    font: bold 12px sans-serif;
+    margin: 20px;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.navigation li {
+    display: inline-block;
+    float: left;
+}
+
+.navigation a {
+    background: #ff00ff;
+    border-right: 1px solid rgba(0, 0,0 3);
+    color: #fff;
+    padding: 12px 10px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    background: #314b60;
+}
+
+
+
+
+
+
+/*this is cray cray!*/
